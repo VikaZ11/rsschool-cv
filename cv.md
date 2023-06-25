@@ -4,8 +4,8 @@
 
 ### Contacts:
 
--   phone: +380636429831
--   email: viktoriia.zahorodnia@gmail.com
+-   Phone: +380636429831
+-   Email: viktoriia.zahorodnia@gmail.com
 -   [LinkedIn](https://www.linkedin.com/in/viktoriia-zahorodnia/)
 -   [GitHub](https://github.com/VikaZ11)
 
@@ -49,21 +49,23 @@ _January 2022 - March 2022 | Ukraine_
 
 1. RS School
 
-JavaScript/Front-end. Stage 0
+   JavaScript/Front-end. Stage 0
 
-June 2023 - now | remote
+   June 2023 - now | remote
+
 
 2. GoIt
 
-Full Stack Developer
+   Full Stack Developer
 
-May 2022 - March 2023 | remote
+   May 2022 - March 2023 | remote
+
 
 3. National University of Food Technologies
 
-Automation of food technologies
+   Automation of food technologies
 
-September 2012 - June 2016 | Ukraine
+   September 2012 - June 2016 | Ukraine
 
 ### Languages: 
 
