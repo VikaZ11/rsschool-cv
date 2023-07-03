@@ -1,6 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
 
+    background-color: #FFF4F4;
+
     min-height: 100vh;
     margin: 0;
     padding: 0;
@@ -16,4 +18,32 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    background-color: #606C5D;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #FFF4F4;
+    padding-bottom: 14px;
+    transition: color 500ms, border 500ms;
+}
+
+.nav-link:hover {
+    color: #F1C376;
+    border-bottom: 2px solid #F1C376;
 }
