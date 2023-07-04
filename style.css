@@ -91,3 +91,18 @@ html {
 .profile-title {
     padding-bottom: 16px;
 }
+
+/* -------------------------------------ABOUT------------------------------------------------ */
+
+.about {
+    margin: 150px 0;
+}
+
+.about-title {
+    padding-bottom: 30px;
+}
+
+.about-text {
+    padding-right: 30px;
+    line-height: 2;
+}
