@@ -1,5 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
 
     background-color: #FFF4F4;
     color: #606C5D;
@@ -41,6 +44,15 @@ html {
     .section {
         width: 100%;
     }
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+    padding-bottom: 30px;
 }
 
 /* ---------------------------------------HEADER------------------------------------------- */
@@ -89,6 +101,11 @@ html {
 }
 
 .profile-title {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.8;
+
     padding-bottom: 16px;
 }
 
@@ -98,11 +115,7 @@ html {
     margin: 150px 0;
 }
 
-.about-title {
-    padding-bottom: 30px;
-}
-
 .about-text {
     padding-right: 30px;
-    line-height: 2;
+    
 }
