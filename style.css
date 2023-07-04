@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
 
     background-color: #FFF4F4;
+    color: #606C5D;
 
     min-height: 100vh;
     margin: 0;
@@ -13,6 +14,8 @@ body {
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 html {
@@ -25,8 +28,26 @@ html {
     padding: 0 15px;
 }
 
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section {
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+/* ---------------------------------------HEADER------------------------------------------- */
+
 .header {
     background-color: #606C5D;
+    padding: 16px 0 ;
 }
 
 .nav-list {
@@ -50,4 +71,16 @@ html {
 .nav-link:hover {
     color: #F1C376;
     border-bottom: 2px solid #F1C376;
+}
+
+/* ---------------------------------PROFILE---------------------------------------------------- */
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    width: 300px; 
 }
