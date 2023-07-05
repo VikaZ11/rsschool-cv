@@ -32,47 +32,47 @@
     </header>
 
     <main class="main">
-        <div class="container main-container">
+        <div class="container">
+            <div class="main-container">
+                <section class="profile section">
+                    <img src="./asserts/images/IMG_1124.JPG" alt="Viktoriia's photo" class="profile-img" />
+                    <h1 class="profile-title">Viktoriia Zahorodnia</h1>
+                    <p class="profile-subtitle">FrontEnd developer</p>
+                </section>
 
-            <section class="profile section">
-                <img src="./asserts/images/IMG_1124.JPG" alt="Viktoriia's photo" class="profile-img" />
-                <h1 class="profile-title">Viktoriia Zahorodnia</h1>
-                <p class="profile-subtitle">FrontEnd developer</p>
-            </section>
+                <section class="about section" id="about">
+                    <h2 class="section-title about-title">About me:</h2>
+                    <p class="about-text">I have been studying programming for almost a year. I don't have commercial
+                        experience yet, but
+                        during this time I
+                        gained experience in creating landing pages, programming in Vanilla JS, creating small
+                        applications in React. I also
+                        have experience working on team projects during my studies. I am currently looking for a job to
+                        develop as a front-end
+                        programmer.
+                    </p>
+                </section>
 
-            <section class="about section" id="about">
-                <h2 class="section-title about-title">About me:</h2>
-                <p class="about-text">I have been studying programming for almost a year. I don't have commercial
-                    experience yet, but
-                    during this time I
-                    gained experience in creating landing pages, programming in Vanilla JS, creating small
-                    applications in React. I also
-                    have experience working on team projects during my studies. I am currently looking for a job to
-                    develop as a front-end
-                    programmer.
-                </p>
-            </section>
+                <section class="skills section" id="skills">
+                    <h2 class="section-title skills-title">Skills:</h2>
+                    <div class="skills-blocks">
+                        <ul class="skills-list">
+                            <li class="skills-item">HTML</li>
+                            <li class="skills-item">CSS/SASS/SCSS</li>
+                            <li class="skills-item">JavaScript</li>
+                            <li class="skills-item">React</li>
+                        </ul>
+                        <ul class="skills-list">
+                            <li class="skills-item">Node.js</li>
+                            <li class="skills-item">Wordpress</li>
+                            <li class="skills-item">Git</li>
+                        </ul>
+                    </div>
+                </section>
 
-            <section class="skills section" id="skills">
-                <h2 class="section-title skills-title">Skills:</h2>
-                <div class="skills-blocks">
-                    <ul class="skills-list">
-                        <li class="skills-item">HTML</li>
-                        <li class="skills-item">CSS/SASS/SCSS</li>
-                        <li class="skills-item">JavaScript</li>
-                        <li class="skills-item">React</li>
-                    </ul>
-                    <ul class="skills-list">
-                        <li class="skills-item">Node.js</li>
-                        <li class="skills-item">Wordpress</li>
-                        <li class="skills-item">Git</li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="code section" id="code-example">
-                <h2 class="section-title code-title">Code example:</h2>
-                <pre class="code-block">
+                <section class="code section" id="code-example">
+                    <h2 class="section-title code-title">Code example:</h2>
+                    <pre class="code-block">
 let answer = 
     prompt("What is the "official" name of JS?");
 if (answer == "ECMAScript") {
@@ -80,25 +80,59 @@ alert("Right!");
 } else {
 alert("Don't you know? ECMAScript!");
 }</pre>
-            </section>
+                </section>
 
-            <section class="work section" id="work-experience">
-                <h2 class="section-title work-title">Work Experience:</h2>
-                <h3 class="work-subtitle">Junior Sourcer «Rock-IT»</h3>
-                <p class="work-date">January 2022 - March 2022 | Ukraine</p>
-                <ul class="work-list">
-                    <li class="work-item">Search for candidates by various methods (boolean search, social media,
-                        LinkedIn, internal
-                        database of candidates).</li>
-                    <li class="work-item">Contacting candidates, filling existing vacancies, establishing contacts with
-                        candidates to fill
-                        vacancies.</li>
-                    <li class="work-item">Drawing up a work plan for a vacancy together with a recruiter.</li>
-                </ul>
-            </section>
+                <section class="work section" id="work-experience">
+                    <h2 class="section-title work-title">Work Experience:</h2>
+                    <h3 class="work-subtitle">Junior Sourcer «Rock-IT»</h3>
+                    <p class="work-date">January 2022 - March 2022 | Ukraine</p>
+                    <ul class="work-list">
+                        <li class="work-item">Search for candidates by various methods (boolean search, social media,
+                            LinkedIn, internal
+                            database of candidates).</li>
+                        <li class="work-item">Contacting candidates, filling existing vacancies, establishing contacts
+                            with
+                            candidates to fill
+                            vacancies.</li>
+                        <li class="work-item">Drawing up a work plan for a vacancy together with a recruiter.</li>
+                    </ul>
+                </section>
 
-            <section class="education section" id="education"></section>
-            <section class="languages section" id="languages"></section>
+                <section class="education section" id="education">
+                    <h2 class="section-title education-title">Education:</h2>
+                    <ol>
+                        <li class="education-item">
+                            <h3 class="education-subtitle">RS School</h3>
+                            <p>JavaScript/Front-end. Stage 0</p>
+                            <p class="education-date">June 2023 - now | remote</p>
+                        </li>
+                        <li class="education-item">
+                            <h3 class="education-subtitle">GoIt</h3>
+                            <p>Full Stack Developer</p>
+                            <p class="education-date">May 2022 - March 2023 | remote</p>
+                        </li>
+                        <li class="education-item">
+                            <h3 class="education-subtitle">National University of Food Technologies</h3>
+                            <p>Automation of food technologies</p>
+                            <p class="education-date">September 2012 - June 2016 | Ukraine</p>
+                        </li>
+                    </ol>
+                </section>
+            </div>
+
+            <section class="languages" id="languages">
+                <h2 class="section-title languages-title">Languages:</h2>
+                <div class="languages-wrapper">
+                    <ul class="languages-list">
+                        <li class="languages-item">Ukrainian - native</li>
+                        <li class="languages-item">Russian - fluent</li>
+                    </ul>
+                    <ul class="languages-list">
+                        <li class="languages-item">English - A2</li>
+                        <li class="languages-item">Polish - A1</li>
+                    </ul>
+                </div>
+            </section>
         </div>
     </main>
 

@@ -50,6 +50,7 @@ html {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
+    color:#e8a127;
 }
 
 /* ---------------------------------------HEADER------------------------------------------- */
@@ -165,6 +166,7 @@ html {
 
 .work {
     padding: 30px 50px;
+    margin-bottom: 70px;
 }
 
 .work-title, .work-subtitle, .work-date {
@@ -190,4 +192,58 @@ html {
     font-weight: 900;
     width: 1em;
     margin-left: -1em;
+}
+
+/* -------------------------------------EDUCATION------------------------------------------------ */
+
+.education {
+    margin-bottom: 70px;
+    padding: 30px 20px;
+}
+
+.education-title {
+    padding-bottom: 20px;
+}
+
+.education-item:not(:last-child) {
+    padding-bottom: 15px;
+}
+
+.education-item::marker {
+    color: #ffb638;
+}
+
+.education-subtitle {
+    font-weight: 400;
+}
+
+.education-date {
+    font-size: 14px;
+}
+
+/* -------------------------------------LANGUAGES------------------------------------------------ */
+
+.languages {
+    text-align: center;
+    /* padding: 50px; */
+    margin-bottom: 50px;
+}
+
+.languages-title {
+    padding-bottom: 20px;
+}
+
+.languages-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.languages-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.languages-item:not(:last-child) {
+    padding-bottom: 15px;
 }
