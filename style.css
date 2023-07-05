@@ -17,7 +17,6 @@ body {
 
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
 }
 
@@ -48,11 +47,12 @@ html {
 
 .section-title {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 3px;
 
     padding-bottom: 30px;
+   
 }
 
 /* ---------------------------------------HEADER------------------------------------------- */
@@ -113,9 +113,40 @@ html {
 
 .about {
     margin: 150px 0;
+    padding-left: 20px;
 }
 
 .about-text {
     padding-right: 30px;
     
 }
+
+/* -------------------------------------SKILLS------------------------------------------------ */
+
+.skills {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.skills-title {
+    padding-left: 80px;
+    padding-bottom: 15px;
+}
+
+.skills-blocks {
+    display: flex;
+   justify-content: space-around;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skills-item::before {
+    content: "\2022";
+    color: #ffb638;
+    display: inline-block;
+    font-weight: 900;
+    width: 1em;
+    margin-left: -1em;
+    }
