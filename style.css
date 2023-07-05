@@ -124,7 +124,7 @@ html {
 /* -------------------------------------SKILLS------------------------------------------------ */
 
 .skills {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .skills-title {
@@ -154,8 +154,40 @@ html {
 
 .code {
     padding-left: 20px;
+    margin-bottom: 70px;
 }
 
 .code-title {
     padding-bottom: 15px;
+}
+
+/* -------------------------------------WORK------------------------------------------------ */
+
+.work {
+    padding: 30px 50px;
+}
+
+.work-title, .work-subtitle, .work-date {
+    padding-bottom: 15px;
+}
+
+.work-subtitle {
+    font-weight: 400;
+}
+
+.work-date {
+    font-size: 14px;
+}
+
+.work-list {
+    list-style: none;
+}
+
+.work-item::before {
+    content: "\2022";
+    color: #ffb638;
+    display: inline-block;
+    font-weight: 900;
+    width: 1em;
+    margin-left: -1em;
 }
